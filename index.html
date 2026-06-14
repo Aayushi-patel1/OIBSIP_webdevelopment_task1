@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurora Landing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <nav class="nav">
+      <a class="brand" href="#main" aria-label="Aurora home">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__name">Aurora</span>
+      </a>
+
+      <div class="nav__links" role="navigation" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </div>
+
+      <div class="nav__actions">
+        <a class="btn btn--ghost" href="#pricing">See plans</a>
+        <a class="btn btn--primary" href="#cta">Get started</a>
+      </div>
+
+      <button class="nav__toggle" type="button" aria-label="Open menu" aria-controls="mobileMenu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+    </nav>
+
+    <div id="mobileMenu" class="mobile-menu" hidden>
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn btn--primary mobile-cta" href="#cta">Get started</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+        <div class="grid"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow">
+            <span class="spark" aria-hidden="true"></span>
+            New: motion-first landing templates
+          </p>
+
+          <h1>
+            Edit your web,photos and videos in AURORA
+            <span class="grad-text">Animated. Responsive. Premium.</span>
+          </h1>
+
+          <p class="lead">
+            Aurora helps you create a modern landing page with tasteful motion, strong hierarchy,
+            and conversion-focused sections—without heavy assets.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary btn--lg" href="#cta">
+              Start free
+              <span class="btn__icon" aria-hidden="true">→</span>
+            </a>
+            <a class="btn btn--ghost btn--lg" href="#features">
+              Explore features
+            </a>
+          </div>
+
+          <div class="hero__badges" aria-label="Highlights">
+            <div class="badge">
+              <span class="badge__dot" aria-hidden="true"></span>
+              <span>CSS-only animations</span>
+            </div>
+            <div class="badge">
+              <span class="badge__dot" aria-hidden="true"></span>
+              <span>Accessible + responsive</span>
+            </div>
+            <div class="badge">
+              <span class="badge__dot" aria-hidden="true"></span>
+              <span>Beautiful by default</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__art" aria-hidden="true">
+          <div class="device">
+            <div class="device__top">
+              <span class="mac-dot d1"></span>
+              <span class="mac-dot d2"></span>
+              <span class="mac-dot d3"></span>
+            </div>
+
+            <div class="device__screen">
+              <div class="screen-card sc1"></div>
+              <div class="screen-card sc2"></div>
+              <div class="screen-card sc3"></div>
+
+              <div class="orbit">
+                <span class="planet p1"></span>
+                <span class="planet p2"></span>
+              </div>
+
+              <div class="chart">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
+
+              <div class="screen-footer">
+                <span class="chip"></span>
+                <span class="chip"></span>
+                <span class="chip"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="stat-float sf1">
+            <div class="stat-float__kpi">+43%</div>
+            <div class="stat-float__lbl">conversion lift</div>
+          </div>
+          <div class="stat-float sf2">
+            <div class="stat-float__kpi">1.2s</div>
+            <div class="stat-float__lbl">perceived speed</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container hero__stats">
+        <div class="stat-card">
+          <div class="stat-card__icon" aria-hidden="true">⚡</div>
+          <div class="stat-card__num">Fast</div>
+          <div class="stat-card__desc">Lightweight CSS, no libraries.</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__icon" aria-hidden="true">🧠</div>
+          <div class="stat-card__num">Smart</div>
+          <div class="stat-card__desc">Clear sections built for clarity.</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__icon" aria-hidden="true">✨</div>
+          <div class="stat-card__num">Polished</div>
+          <div class="stat-card__desc">Motion that feels premium.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST -->
+    <section class="trust">
+      <div class="container">
+        <p class="trust__label">Trusted by teams shipping modern experiences</p>
+        <div class="trust__marquee" aria-hidden="true">
+          <span>NovaWorks</span>
+          <span>PixelForge</span>
+          <span>Orbit Studio</span>
+          <span>Brightbyte</span>
+          <span>CloudKite</span>
+          <span>NovaWorks</span>
+          <span>PixelForge</span>
+          <span>Orbit Studio</span>
+          <span>Brightbyte</span>
+          <span>CloudKite</span>
+        </div>
+        <div class="trust__hint">
+          <span class="dot"></span> Smooth interactions, strong typography, and consistent spacing.
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES 
+    <section class="section" id="features">
+      <div class="container section__head">
+        <div>
+          <p class="section__eyebrow">Features</p>
+          <h2>Everything you need to convert</h2>
+        </div>
+        <p class="section__sub">
+          Designed with clear hierarchy, delightful motion, and a layout that works on every screen.
+        </p>
+      </div>
+
+      <div class="container grid grid--features">
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 2l3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Motion that matters</h3>
+          <p>Micro-interactions guide attention—no distracting effects.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 7h16M7 4v16m10-13v13" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+              <path d="M8 16l4-4 4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Clean layout</h3>
+          <p>Strong spacing, crisp type, and consistent card design.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 3v18" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+              <path d="M5 8c2-2 5-3 7-3s5 1 7 3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+              <path d="M5 16c2 2 5 3 7 3s5-1 7-3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Responsive by default</h3>
+          <p>Mobile-first grid, fluid sizing, and adaptive typography.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M7 7h10v10H7V7Z" stroke="currentColor" stroke-width="1.7" />
+              <path d="M4 12h3m10 0h3M12 4v3m0 10v3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Accessible structure</h3>
+          <p>Keyboard-friendly focus, semantic sections, readable contrast.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 21s7-4.5 7-11a7 7 0 0 0-14 0c0 6.5 7 11 7 11Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+              <path d="M9.5 10.5l1.6 1.6 3.4-3.4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Conversion-ready</h3>
+          <p>Pricing, FAQ, and CTAs placed where users decide.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 16c2-6 7-10 16-10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+              <path d="M6 18c3-3 6-4 12-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+              <path d="M20 20H4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Pure CSS visuals</h3>
+          <p>Glows, gradients, and shapes without heavy images.</p>
+        </article>
+      </div>
+    </section>-->
+
+    <!-- HOW IT WORKS -->
+    <section class="section" id="how">
+      <div class="container section__head">
+        <div>
+          <p class="section__eyebrow">How it works</p>
+          <h2>A flow your users understand instantly</h2>
+        </div>
+        <p class="section__sub">Three steps—from first impression to signup.</p>
+      </div>
+
+      <div class="container grid grid--steps">
+        <article class="step reveal">
+          <div class="step__num">01</div>
+          <h3>Choose your vibe</h3>
+          <p>Start with a clean hero and motion-ready sections.</p>
+        </article>
+
+        <article class="step reveal">
+          <div class="step__num">02</div>
+          <h3>Tell the story</h3>
+          <p>Features, proof, and pricing—structured for scanning.</p>
+        </article>
+
+        <article class="step reveal">
+          <div class="step__num">03</div>
+          <h3>Convert with confidence</h3>
+          <p>Clear CTAs, FAQ answers, and a strong final push.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PRICING --
+    <section class="section" id="pricing">
+      <div class="container section__head">
+        <div>
+          <p class="section__eyebrow">Pricing</p>
+          <h2>Simple plans for every stage</h2>
+        </div>
+        <p class="section__sub">Pick a plan that matches your momentum.</p>
+      </div>
+
+      <div class="container grid grid--pricing">
+        <article class="price-card reveal">
+          <div class="price-card__top">
+            <h3>Starter</h3>
+            <p class="price-card__meta">For prototypes</p>
+          </div>
+          <div class="price">
+            <span class="price__amount">$9</span>
+            <span class="price__per">/ month</span>
+          </div>
+          <ul class="list">
+            <li>Landing page template</li>
+            <li>CSS animations</li>
+            <li>Email support</li>
+          </ul>
+          <a class="btn btn--ghost btn--block" href="#cta">Choose Starter</a>
+        </article>
+
+        <article class="price-card price-card--featured reveal">
+          <div class="ribbon" aria-hidden="true">Most popular</div>
+          <div class="price-card__top">
+            <h3>Pro</h3>
+            <p class="price-card__meta">For growing products</p>
+          </div>
+          <div class="price">
+            <span class="price__amount">$19</span>
+            <span class="price__per">/ month</span>
+          </div>
+          <ul class="list">
+            <li>Everything in Starter</li>
+            <li>Extra sections & layouts</li>
+            <li>Priority support</li>
+          </ul>
+          <a class="btn btn--primary btn--block" href="#cta">Go Pro</a>
+        </article>
+
+        <article class="price-card reveal">
+          <div class="price-card__top">
+            <h3>Team</h3>
+            <p class="price-card__meta">For serious launches</p>
+          </div>
+          <div class="price">
+            <span class="price__amount">$39</span>
+            <span class="price__per">/ month</span>
+          </div>
+          <ul class="list">
+            <li>Everything in Pro</li>
+            <li>Custom component guidance</li>
+            <li>Team onboarding</li>
+          </ul>
+          <a class="btn btn--ghost btn--block" href="#cta">Contact sales</a>
+        </article>
+      </div>
+    </section> -->
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container section__head">
+        <div>
+          <p class="section__eyebrow">FAQ</p>
+          <h2>Questions, answered</h2>
+        </div>
+        <p class="section__sub">Quick clarity for faster decisions.</p>
+      </div>
+
+      <div class="container faq">
+        <details class="faq-item reveal">
+          <summary>
+            <span>Is this page mobile-friendly?</span>
+            <span class="summary-icon" aria-hidden="true">+</span>
+          </summary>
+          <div class="faq-content">
+            Yes—this layout is mobile-first with responsive grids, fluid type, and touch-friendly spacing.
+          </div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary>
+            <span>Does it use JavaScript for animations?</span>
+            <span class="summary-icon" aria-hidden="true">+</span>
+          </summary>
+          <div class="faq-content">
+            No—motion is done with CSS and hover effects. Animations also respect
+            <code>prefers-reduced-motion</code> for accessibility.
+          </div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary>
+            <span>Can I reuse this template?</span>
+            <span class="summary-icon" aria-hidden="true">+</span>
+          </summary>
+          <div class="faq-content">
+            Absolutely. Replace the copy, colors, and sections to fit your product—without needing any build tools.
+          </div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary>
+            <span>Is the design accessible?</span>
+            <span class="summary-icon" aria-hidden="true">+</span>
+          </summary>
+          <div class="faq-content">
+            The structure uses semantic HTML, strong contrast, and visible focus styles for keyboard users.
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="cta" id="cta">
+      <div class="container">
+        <div class="cta-box">
+          <div class="cta-inner">
+            <div>
+              <p class="section__eyebrow" style="margin:0 0 10px;">Ready to launch?</p>
+              <h2>Turn attention into signups—beautifully.</h2>
+              <p>
+                Start with Aurora, then customize the colors, content, and sections. Built to look great and
+                feel fast on every device.
+              </p>
+            </div>
+            <div class="hero__cta" style="margin:0;">
+              <a class="btn btn--primary btn--lg" href="#">
+                Get started
+                <span class="btn__icon" aria-hidden="true">→</span>
+              </a>
+              <a class="btn btn--ghost btn--lg" href="#features">
+                View features
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <div>
+          <strong style="color:rgba(255,255,255,.86);">Aurora</strong>
+          <span style="margin-left:10px;">© <span id="year"></span> All rights reserved.</span>
+        </div>
+        <div style="display:flex; gap:14px; align-items:center;">
+          <a href="#faq">FAQ</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#main">Back to top</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // minimal script for year + mobile menu toggle
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const toggle = document.querySelector('.nav__toggle');
+    const menu = document.getElementById('mobileMenu');
+
+    if (toggle && menu) {
+      toggle.addEventListener('click', () => {
+        const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        menu.hidden = isOpen;
+      });
+
+      menu.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => {
+          toggle.setAttribute('aria-expanded', 'false');
+          menu.hidden = true;
+        });
+      });
+    }
+  </script>
+</body>
+</html>
